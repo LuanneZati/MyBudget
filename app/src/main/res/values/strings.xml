@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minha carteira</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_descricao">Descrição</string>
+    <string name="lbl_data">Data</string>
+    <string name="lbl_valor">Valor</string>
+    <string name="hint_valor">Digite o valor em reais</string>
+    <string name="hint_date">Selecione a data</string>
+    <string name="hint_description">Descreva seu gasto</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="total">Total:</string>
+</resources>
