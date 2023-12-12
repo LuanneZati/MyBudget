@@ -5,18 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:textColor="@android:color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:layout_marginTop="5dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="@android:color/white"
             android:gravity="center"
             android:text="@string/lbl_descricao"/>
     </LinearLayout>
@@ -24,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:gravity="center_horizontal"
         android:layout_marginBottom="5dp">
 
@@ -34,6 +38,7 @@
             android:focusable="true"
             android:gravity="center"
             android:hint="@string/hint_description"
+            android:textColorHint="@android:color/white"
             android:inputType="text"
             android:textSize="18sp"></EditText>
     </LinearLayout>
@@ -42,12 +47,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:gravity="center_horizontal"
         android:layout_marginTop="5dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
+            android:textColor="@android:color/white"
             android:textStyle="bold"
             android:gravity="center"
             android:text="@string/lbl_data"/>
@@ -56,6 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:gravity="center_horizontal"
         android:layout_marginBottom="5dp">
 
@@ -65,6 +73,7 @@
             android:layout_height="64dp"
             android:clickable="false"
             android:cursorVisible="false"
+            android:textColorHint="@android:color/white"
             android:focusable="true"
             android:focusableInTouchMode="false"
             android:gravity="center"
@@ -76,11 +85,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:layout_marginTop="5dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lbl_valor"
+            android:textColor="@android:color/white"
             android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold"/>
@@ -89,6 +100,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@android:color/white"
         android:gravity="center_horizontal"
         android:layout_marginBottom="5dp">
 
@@ -98,9 +110,11 @@
             android:layout_height="64dp"
             android:focusable="true"
             android:gravity="center"
+            android:textColorHint="@android:color/white"
             android:hint="@string/hint_valor"
             android:inputType="numberDecimal"
             android:text="R$ "
+            android:textColor="@android:color/white"
             android:textSize="18sp"></EditText>
     </LinearLayout>
 
@@ -109,12 +123,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
+        android:textColor="@android:color/white"
         android:layout_marginRight="5dp">
         <Button
             android:id="@+id/btn_salvar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_salvar"
+            android:textColor="@android:color/white"
             android:background="@drawable/rounded_button">
         </Button>
     </LinearLayout>
